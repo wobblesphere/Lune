@@ -1,0 +1,27 @@
+name: server-tests-and-linter
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Set up node 
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: install pacakges
+      run: yarn install
+    - name: Run tests
+      run: yarn test
+    - name: linter
+      run: yarn lint
+    - name: formatter
+      run: yarn format

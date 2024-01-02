@@ -1,0 +1,25 @@
+name: web-linter
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - name: install pacakges
+        run: yarn install
+      - name: ESLint
+        run: yarn run lint
+      - name: Prettier
+        run: yarn run format
