@@ -1,8 +1,8 @@
 {
-  "name": "lune-test",
-  "version": "1.0.5",
+  "name": "lune",
+  "version": "0.1.1",
   "bin": {
-    "lune-test": "src/cli/index.js"
+    "lune": "src/cli/index.js"
   },
   "description": "A local webapp to sort through screenshots",
   "main": "dist/src/index.js",
@@ -51,10 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobblesphere/screenshot-swipe-be.git"
+    "url": "git+https://github.com/wobblesphere/Lune.git"
   },
   "bugs": {
-    "url": "https://github.com/wobblesphere/screenshot-swipe-be/issues"
+    "url": "https://github.com/wobblesphere/Lune/issues"
   },
-  "homepage": "https://github.com/wobblesphere/screenshot-swipe-be#readme"
+  "homepage": "https://github.com/wobblesphere/Lune#readme"
 }

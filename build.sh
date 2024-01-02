@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo 'navigate to screenshot-swipe-be directory'
+echo 'navigate to web directory'
 cd ./src/web
 
 echo 'run yarn build'

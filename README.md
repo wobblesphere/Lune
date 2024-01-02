@@ -1,7 +1,7 @@
 # Lune
 
-[![server-tests-and-linter](https://github.com/wobblesphere/screenshot-swipe-be/actions/workflows/main.yml/badge.svg)](https://github.com/wobblesphere/screenshot-swipe-be/actions/workflows/main.yml)
-[![web-linter](https://github.com/wobblesphere/screenshot-swipe-be/actions/workflows/webMain.yml/badge.svg)](https://github.com/wobblesphere/screenshot-swipe-be/actions/workflows/webMain.yml)
+[![server-tests-and-linter](https://github.com/wobblesphere/Lune/actions/workflows/main.yml/badge.svg)](https://github.com/wobblesphere/Lune/actions/workflows/main.yml)
+[![web-linter](https://github.com/wobblesphere/Lune/actions/workflows/webMain.yml/badge.svg)](https://github.com/wobblesphere/Lune/actions/workflows/webMain.yml)
 
 <img src="/src/web/public/chinchilla_lune_cleaner.png" height="80px" width="80px" />
 
