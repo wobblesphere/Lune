@@ -1,5 +1,5 @@
 {
-  "name": "lune",
+  "name": "@wobblesphere/lune",
   "version": "0.1.1",
   "bin": {
     "lune": "src/cli/index.js"
