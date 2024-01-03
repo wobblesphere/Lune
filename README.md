@@ -30,9 +30,7 @@ lune -d ~/Desktop
 Running this command will open web app in browser displaying all screenshots in the provided directory
 
 
-
-https://github.com/wobblesphere/Lune/assets/31394745/3fcc00dd-9d53-46e4-bd4d-84e26bf37027
-
+https://github.com/wobblesphere/Lune/assets/31394745/f7a1b644-d744-403f-b041-ce4b468da697
 
 
 ### FAQ
